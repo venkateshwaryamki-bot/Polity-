@@ -4,3 +4,5 @@ node_modules/
 *.keystore
 keystore.properties
 .idea/
+dist/
+android/Civix.apk
