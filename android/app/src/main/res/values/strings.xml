@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Civix</string>
+    <string name="title_activity_main">Civix</string>
+    <string name="package_name">com.civix.polity</string>
+    <string name="custom_url_scheme">com.civix.polity</string>
+</resources>

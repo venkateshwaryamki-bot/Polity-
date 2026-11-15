@@ -1,0 +1,24 @@
+{
+  "name": "Civix: Indian Polity for UPSC",
+  "short_name": "Civix",
+  "description": "Indian Polity for UPSC Prelims and Mains: chapters, PYQs, quizzes, flashcards, answer writing and streaks.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F5F6FA",
+  "theme_color": "#3657F0",
+  "categories": ["education", "books"],
+  "lang": "en-IN",
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Lightning Round", "url": "./#/lightning", "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Practice", "url": "./#/quiz", "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Cards", "url": "./#/flashcards", "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

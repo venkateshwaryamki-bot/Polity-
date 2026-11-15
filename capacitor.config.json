@@ -1,0 +1,24 @@
+{
+  "appId": "com.civix.polity",
+  "appName": "Civix",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#F5F6FA",
+    "allowMixedContent": false,
+    "captureInput": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1200,
+      "launchAutoHide": true,
+      "backgroundColor": "#F5F6FA",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "overlaysWebView": false,
+      "style": "LIGHT",
+      "backgroundColor": "#F5F6FA"
+    }
+  }
+}

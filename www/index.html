@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Civix · Indian Polity for UPSC</title>
+<meta name="description" content="Civix: Indian Polity for UPSC Prelims and Mains. 88 chapters updated to 2026, PYQs with explanations, flashcards, quizzes, a Lightning Round and a Mains answer studio.">
+<meta name="theme-color" content="#3657F0">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="app">
+  <aside class="sidebar" aria-label="Main navigation">
+    <a class="brand" href="#/"><img class="logo" src="assets/logo.svg" alt=""><span><b>Civix</b><small>Indian Polity · UPSC</small></span></a>
+    <nav class="nav" id="nav"></nav>
+    <div class="side-card" id="side-level"></div>
+  </aside>
+  <div class="main-wrap">
+    <header class="topbar">
+      <a class="top-brand" href="#/"><img class="logo" src="assets/logo.svg" alt="">Civix</a>
+      <button class="search-trigger" id="search-trigger" type="button"><span>🔍</span><span class="st">Search Articles, chapters, cases, PYQs…</span><kbd>/</kbd></button>
+      <div class="top-pills">
+        <button class="icon-btn mobile-only" id="search-mobile" type="button" aria-label="Search">🔍</button>
+        <a class="pill goal js-goal" href="#/profile" title="Today's goal"></a>
+        <a class="pill js-streak" href="#/profile" title="Day streak"></a>
+        <a class="pill xp js-xp" href="#/profile" title="Your XP"></a>
+      </div>
+    </header>
+    <main class="main" id="main" tabindex="-1"></main>
+  </div>
+</div>
+<nav class="tabbar" id="tabbar" aria-label="Tabs"></nav>
+<div class="sheet" id="more-sheet" hidden><div class="sheet-card"><div class="sheet-grip"></div><div class="sheet-grid" id="more-grid"></div></div></div>
+<div class="modal" id="search-modal" hidden>
+  <div class="modal-card">
+    <input id="search-input" type="search" placeholder="Try: 356, Kesavananda, Governor, 73rd amendment" autocomplete="off">
+    <div class="search-results" id="search-results"></div>
+  </div>
+</div>
+<div class="onboard" id="onboard" hidden></div>
+<div class="celebrate" id="celebrate" hidden></div>
+<div class="toast-wrap" id="toasts" aria-live="polite"></div>
+<canvas id="confetti" aria-hidden="true"></canvas>
+
+<script src="data/syllabus.js"></script>
+<script src="data/articles.js"></script>
+<script src="data/amendments.js"></script>
+<script src="data/pyq_prelims.js"></script>
+<script src="data/pyq_mains.js"></script>
+<script src="data/pyq_mains_fw.js"></script>
+<script src="data/revision.js"></script>
+<script src="data/updates.js"></script>
+<script src="data/chapters/index.js"></script>
+<script src="data/chapters/u01.js"></script>
+<script src="data/chapters/u02.js"></script>
+<script src="data/chapters/u03.js"></script>
+<script src="data/chapters/u04.js"></script>
+<script src="data/chapters/u05.js"></script>
+<script src="data/chapters/u06.js"></script>
+<script src="data/chapters/u07.js"></script>
+<script src="data/chapters/u08.js"></script>
+<script src="data/chapters/u09.js"></script>
+<script src="data/chapters/u10.js"></script>
+<script src="data/chapters/u11.js"></script>
+<script src="js/md.js"></script>
+<script src="js/store.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/views.js"></script>
+<script src="js/fun.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
